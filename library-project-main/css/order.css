@@ -7,17 +7,18 @@
     gap: 20px;
 }
 
-.order-form, .order-summary {
+.order-form,
+.order-summary {
     margin: 30px 0 30px 30px;
     background: #fff;
     border-radius: 15px;
-    box-shadow: 0 0 40px rgba(0,0,0,0.3);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
     padding: 20px;
     width: 704px;
     height: 800px;
 }
 
-.order-summary{
+.order-summary {
     width: 494px;
     height: 800px;
     margin: 30px 0 30px 24px;
@@ -104,12 +105,15 @@
     padding-left: 240px;
     color: #B4AA99;
 }
+
 .delivery-options input[type="radio"] {
     accent-color: #A68111;
 }
+
 .delivery-options label input {
     margin-right: 10px;
 }
+
 .delivery-options p {
     font-family: var(--font-tektur);
     color: #B4AA99;
@@ -124,12 +128,14 @@
     text-align: left;
 
 }
+
 .book-info {
     display: flex;
     align-items: flex-start;
     gap: 20px;
     margin-bottom: 20px;
 }
+
 .book-image {
     width: 264px;
     height: 391px;
@@ -137,6 +143,7 @@
     margin-bottom: 15px;
 
 }
+
 .order-summary h3 {
     font-size: 20px;
     margin: 5px 0;
@@ -167,7 +174,8 @@
     font-weight: 500;
 }
 
-.agreement, .policy {
+.agreement,
+.policy {
     font-size: 16px;
     color: black;
     font-family: var(--font-tektur);
@@ -187,7 +195,7 @@
     font-size: 20px;
     font-family: var(--font-tektur);
     transition: 0.3s;
-    font-weight: 500;
+    font-weight: 400;
     width: 80%;
     height: auto;
     align-items: center;
@@ -195,10 +203,8 @@
 }
 
 .confirm-btn:hover {
-    background: #8e6f0f;
     font-family: var(--font-rubik);
-    transform: translateY(-20px);
-    font-weight: 400;
+
 }
 
 .continue-link {
@@ -230,8 +236,10 @@
 .plane-wrap {
     position: fixed;
     top: 0;
-    right: -120vw; /* старт поза екраном справа */
-    width: 120vw;  /* щоб вистачило на весь рух */
+    right: -120vw;
+    /* старт поза екраном справа */
+    width: 120vw;
+    /* щоб вистачило на весь рух */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -240,7 +248,7 @@
     pointer-events: none;
     transition: transform 2.8s ease-in-out;
 }
-/* Контейнер анімації */
+
 .transition-scene {
     position: fixed;
     top: 0;
@@ -252,9 +260,9 @@
     z-index: 9999;
 }
 
-/* ✈️ Літак */
+
 .plane {
-    filter: drop-shadow(0 0 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
     position: absolute;
     right: -200px;
     bottom: 30%;
@@ -277,5 +285,5 @@
     background-repeat: no-repeat;
     transition: transform 2.5s ease-in-out;
     transform: translateX(0);
-    box-shadow: -20px 0 60px rgba(0,0,0,0.2);
+    box-shadow: -20px 0 60px rgba(0, 0, 0, 0.2);
 }

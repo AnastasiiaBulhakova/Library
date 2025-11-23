@@ -36,7 +36,7 @@
 }
 
 .slider-btn {
-    background: #A68111;
+    background: #98B0A9;
     color: white;
     border: none;
     padding: 20px 15px;
@@ -44,11 +44,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background 0.3s;
-}
-
-
-.slider-btn:hover {
-    background: #cb9e15;
 }
 
 .books__list {
@@ -108,9 +103,6 @@
     text-align: center;
 }
 
-.book-card__button:hover {
-    background: #cb9e15;
-}
 
 .book-card__title {
     font-size: 16px;

@@ -105,10 +105,8 @@ h3 {
 }
 
 .order__button:hover {
-    background: #8e6f0f;
     font-family: var(--font-rubik);
-    transform: translateY(-20px);
-    font-weight: 400;
+
 }
 
 
