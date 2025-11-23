@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформлення замовлення</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fant_head.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="stylesheet" href="../css/media_fant.css">
+    <link rel="stylesheet" href="../css/media_index.css">
+
+    <link rel="stylesheet" href="../css/media_order.css">
+
+</head>
+
+<body>
+    <header class="header--white header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link">LIBRIS</a>
+            </div>
+
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--dropdown">
+                        <a href="#" class="nav__link">Категорія</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="#">Сучасні автори</a></li>
+                            <li><a href="#">Романтична проза</a></li>
+                            <li><a href="#">Детективи</a></li>
+                            <li><a href="#">Трилери та жахи</a></li>
+                            <li><a href="fant.html">Фантастика</a></li>
+                            <li><a href="#">Фентезі</a></li>
+                            <li><a href="#">Класична література</a></li>
+                            <li><a href="#">Комікси та манга</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="#" class="nav__link">Акції</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Інфопотік</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Зв’язок</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__phone">0-800-200-100</div>
+        </div>
+    </header>
+
+    <!-- оформлення -->
+    <div class="order-container">
+        <div class="order-form">
+            <h1>Оформлення замовлення</h1>
+
+
+
+            <div class="order-section">
+                <h2><span>1</span> Координати доставки</h2>
+
+                <label class="input-label" for="city">Місто</label>
+                <input type="text" id="city" class="input-field">
+
+                <div class="delivery-options">
+                    <label>
+                        <input type="radio" name="delivery" checked>
+                        Доставити в книгарню
+                        <p>65 грн</p>
+                    </label>
+                    <p>Від 495грн – Безкоштовно по Україні</p>
+                    <label>
+                        <input type="radio" name="delivery">
+                        Відділення Нової пошти
+                        <p>65 грн</p>
+                    </label>
+                    <p>Від 495грн – Безкоштовно по Україні</p>
+                    <label>
+                        <input type="radio" name="delivery">
+                        Поштомат Нової пошти
+                        <p>65 грн</p>
+                    </label>
+                    <p>Від 495грн – Безкоштовно по Україні</p>
+                </div>
+            </div>
+
+
+
+            <div class="order-section">
+                <h2><span>2</span> Ідентифікаційні дані</h2>
+                <div class="form-row">
+                    <div>
+                        <label class="input-label" for="name">Ім'я</label>
+                        <input type="text" id="name" class="input-field">
+                    </div>
+                    <div>
+                        <label class="input-label" for="lastname">Прізвище</label>
+                        <input type="text" id="lastname" class="input-field">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label class="input-label" for="phone">Номер телефону</label>
+                        <input type="text" id="phone" class="input-field">
+                    </div>
+                    <div>
+                        <label class="input-label" for="mail">E-mail</label>
+                        <input type="email" id="mail" class="input-field">
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-section">
+                <h2><span>3</span> Канал оплати</h2>
+                <div class="delivery-options">
+                    <label>
+                        <input type="radio" name="payment" checked>
+                        Оплата картою
+                    </label>
+                    <p>Mastercard/Visa</p>
+                    <label>
+                        <input type="radio" name="payment" checked>
+                        Післяплата
+                    </label>
+                    <p>Оплата при отриманні з комісією</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="order-summary">
+            <div class="book-info">
+                <img src="../img/Нові%20темні%20віки.%20Колонія.png" alt="Колонія" class="book-image">
+
+                <div class="book-details">
+                    <h3>Нові Темні Віки. Колонія</h3>
+                    <p class="author">Макс Кідрук</p>
+                    <p class="price">350 грн — Паперова</p>
+                    <p class="stock">В наявності: K09 103903</p>
+                </div>
+            </div>
+
+            <p class="agreement">
+                Натискаючи на кнопку “Підтвердити замовлення”, я погоджуюсь з Публічною офертою Libris.com.
+            </p>
+            <p class="policy">
+                У разі відмови від посилки, згідно з Правилами повернення, із суми повернення вираховується 100 грн —
+                вартість пакування та доставки.
+            </p>
+            <div class="cart-container">
+                <button class="confirm-btn" id="confirm-btn">Підтвердити місію</button>
+            </div>
+            <a href="index.html" class="continue-link">Продовжити покупки</a>
+        </div>
+    </div>
+
+
+    <!--футер-->
+    <footer class="footer">
+        <div class="footer__container">
+            <!-- Перший окремий -->
+            <div class="footer__col">
+                <h4>Магазин</h4>
+                <ul>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Інфопотік</a></li>
+                    <li><a href="#">Магазини</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Інформація</h4>
+                <ul>
+                    <li><a href="#">Правила<br>повернення</a></li>
+                    <li><a href="#">Оферта</a></li>
+                    <li><a href="#">Доставка та оплата</a></li>
+                    <li><a href="#">Вакансії</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Зворотній зв’язок</h4>
+                <ul>
+                    <li><a>+38 066 000 00 00</a></li>
+                    <li><a>+38 063 000 00 00</a></li>
+                    <li><a>+38 067 000 00 00</a></li>
+                    <li><a>info@libris.com</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__col">
+                <h4>Слідкуйте за нами</h4>
+                <div class="footer__socials">
+                    <a href="#"><img src="../img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../img/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="../img/telegram.png" alt="telegram"></a>
+                    <a href="#"><img src="../img/tiktok.png" alt="tiktok"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>©Libris 2025</p>
+            <p>Розробка Δλγ'</p>
+        </div>
+
+    </footer>
+    <div class="transition-scene">
+        <div class="next-page"></div>
+        <img src="../img/НЛО.png" alt="plane" class="plane" />
+    </div>
+
+    <script src="../java/plane.js"></script>
+</body>
+
+</html>

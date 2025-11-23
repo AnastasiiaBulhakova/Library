@@ -1,0 +1,47 @@
+.main-banner {
+    height: 90vh; /* висота */
+    background-image: url("../img/зірки.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-banner__content h1 {
+    font-size: 48px;
+    font-family: var(--font-unbounded);
+    font-weight: 400;
+    margin: 20px;
+}
+
+.main-banner__btn {
+    display: inline-block;
+    padding: 12px 30px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: var(--font-tektur);
+}
+
+.main-banner__btn:hover {
+    font-family: var(--font-rubik);
+    transform: translateY(-10px);
+}
+
+.line {
+    width: 70vw;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.line-bot{
+    width: 50vw;
+}

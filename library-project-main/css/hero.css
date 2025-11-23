@@ -1,0 +1,51 @@
+@import url(fonts.css);
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero__overlay {
+    padding: 0 60px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__title {
+    margin-top: 440px;
+}
+h1 {
+    display: inline-block;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 3px;
+    font-family: var(--font-advent);
+    font-weight: 400;
+}
+.hero__arrow {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+    margin-top: -10vh;
+
+}
+
+.hero__arrow img {
+    width: 450px;
+    height: auto;
+}
+
+.hero__arrow:hover {
+    transform: translateY(5px);
+    filter: brightness(1.2);
+}
+

@@ -1,0 +1,82 @@
+@import url(fonts.css);
+.header {
+    background: transparent;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header__logo {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: var(--font-big-shoulders);
+    color: #98B0A9;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    border: 1px solid #A68111;
+    border-radius: 12px;
+    padding: 5px 100px;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.nav__link {
+    color: #A68111;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font-ubuntu);
+    transition: color 0.3s ease;
+}
+
+.nav__link:hover{
+    color: #ffffff;
+}
+
+.dropdown__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f0eb;
+    padding: 10px 0;
+    list-style: none;
+    border-radius: 2px;
+    min-width: 232px;
+}
+
+.nav__item--dropdown:hover .dropdown__menu {
+    display: block;
+}
+
+.dropdown__menu li a {
+    display: block;
+    padding: 5px 20px;
+    color: #A68111;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+.dropdown__menu li a:hover{
+    color: black;
+}
+.header__phone {
+    font-size: 16px;
+    color: #A68111;
+    font-family: var(--font-tektur);
+}

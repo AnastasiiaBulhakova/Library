@@ -1,0 +1,464 @@
+@media (max-width: 1380px) {
+    .books__list__slider {
+        width: 920px;
+    }
+}
+
+@media (max-width: 1248px) {
+    .footer {
+        padding: 30px 50px;
+    }
+
+    .footer__container {
+        gap: 30px;
+    }
+
+    .footer__col h4 {
+        font-size: 15px;
+    }
+
+    .footer__col ul li a {
+        font-size: 15px;
+    }
+
+    .footer__socials a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer__bottom {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .books__list__slider {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /*хеддер*/
+    .header {
+        padding: 15px 50px;
+    }
+
+    .header__container {
+        max-width: 900px;
+    }
+
+    .header__logo {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+
+    .nav__list {
+        gap: 20px;
+        padding: 5px 60px;
+        border-radius: 10px;
+    }
+
+    .nav__link {
+        font-size: 18px;
+    }
+
+
+    .hero__overlay {
+        padding: 0 40px;
+    }
+
+    .hero__title {
+        margin-top: 350px;
+    }
+
+    h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+
+    .hero__arrow img {
+        width: 320px;
+    }
+
+    .hero__arrow {
+        margin-top: -70px;
+    }
+
+    .footer {
+        padding: 30px 50px;
+    }
+
+    .footer__container {
+        gap: 30px;
+    }
+
+    .footer__col h4 {
+        font-size: 18px;
+    }
+
+    .footer__col ul li a {
+        font-size: 18px;
+    }
+
+    .footer__socials a img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer__bottom {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 940px) {
+    .books__list__slider {
+        width: 460px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    /*хеддер*/
+    .header {
+        padding: 15px 30px;
+    }
+
+    .header__container {
+        max-width: 650px;
+        gap: 20px;
+    }
+
+    .header__logo {
+        font-size: 28px;
+        letter-spacing: 1.5px;
+    }
+
+    .nav__list {
+        gap: 20px;
+        padding: 5px 40px;
+        border-radius: 10px;
+    }
+
+    .nav__link {
+        font-size: 16px;
+    }
+
+
+    /* dropdown */
+    .dropdown__menu {
+        min-width: 180px;
+    }
+
+    .dropdown__menu li a {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+    .header__phone {
+        font-size: 14px;
+    }
+
+    /* ХІРО */
+    .hero__overlay {
+        padding: 0 30px;
+    }
+
+    .hero__title {
+
+        margin-top: 300px;
+    }
+
+    h1 {
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    .hero__arrow img {
+        width: 260px;
+    }
+
+    .hero__arrow {
+        margin-top: -50px;
+    }
+
+
+
+    /*футер*/
+    .footer {
+        padding: 30px 40px;
+    }
+
+    .footer__container {
+        gap: 50px;
+    }
+
+    .footer__col-group {
+        gap: 15px;
+        margin-left: 10px;
+    }
+
+    .footer__col h4 {
+        font-size: 18px;
+    }
+
+    .footer__col ul li a {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .footer__socials a img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer__bottom {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 690px) {
+    .books__list__slider {
+        width: 360px;
+    }
+
+    .books__list {
+        width: 160px;
+    }
+
+    .books {
+        padding: 40px 10px;
+    }
+
+    .books__title {
+        font-size: 28px;
+        padding-left: 40px;
+        margin-bottom: 15px;
+    }
+
+    .books__list {
+        gap: 25px;
+    }
+
+    .book-card {
+        width: 160px;
+    }
+
+    .book-card__image {
+        height: 240px;
+    }
+
+    .book-card__title {
+        font-size: 14px;
+    }
+
+    .book-card__author {
+        font-size: 14px;
+    }
+
+    .book-card__price {
+        font-size: 18px;
+    }
+
+    .book-card__button {
+        font-size: 14px;
+        padding: 7px 0;
+    }
+}
+
+@media (max-width: 675px) {
+
+    /*хеддер*/
+    .header__container {
+        max-width: 600px;
+        gap: 20px;
+    }
+
+    .header__logo {
+        font-size: 24px;
+        letter-spacing: 1.2px;
+    }
+
+    .nav__list {
+        gap: 10px;
+        padding: 2px 20px;
+    }
+
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .header__phone {
+        font-size: 10px;
+    }
+
+    /* ХІРО */
+
+    h1 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .hero__arrow img {
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 585px) {
+    .books__list__slider {
+        width: 180px;
+    }
+}
+
+@media (max-width: 534px) {
+    .header__logo {
+        font-size: 20px;
+        letter-spacing: 1.1px;
+    }
+
+    .nav__list {
+        gap: 7px;
+        padding: 2px 15px;
+    }
+
+    .nav__link {
+        font-size: 12px;
+    }
+
+    .header__phone {
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .top {
+        height: 900px;
+    }
+
+    .top__bg {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /*хеддер*/
+    .header {
+        padding: 5px 10px;
+    }
+
+    .header__container {
+        gap: 10px;
+    }
+
+    .header__logo {
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    .nav__list {
+        gap: 15px;
+        padding: 1px 10px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    .nav__link {
+        font-size: 10px;
+    }
+
+
+    /* dropdown */
+    .dropdown__menu {
+        min-width: 150px;
+        padding: 8px 0;
+    }
+
+    .dropdown__menu li a {
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+
+    .header__phone {
+        font-size: 10px;
+    }
+
+    /* ХІРО */
+    .hero__overlay {
+        padding-left: 1px;
+    }
+
+    .hero__title {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .hero__title h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .hero__arrow {
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+
+    .hero__arrow img {
+        width: 200px;
+        height: auto;
+    }
+
+    /*футер*/
+    .footer {
+        padding: 20px 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 15px;
+    }
+
+    .footer__col {
+        margin-bottom: 15px;
+    }
+
+    .footer__col h4 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer__col ul li a {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .footer__socials {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .footer__socials a img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer__bottom {
+        gap: 5px;
+        font-size: 10px;
+        margin-top: 15px;
+        align-items: center;
+    }
+}
